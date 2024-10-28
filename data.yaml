@@ -1,0 +1,13 @@
+train: C:/Users/Pawel Sloboda/Desktop/rustHax/train/images
+val: C:/Users/Pawel Sloboda/Desktop/rustHax/valid/images
+test: C:/Users/Pawel Sloboda/Desktop/rustHax/test/images
+
+nc: 1
+names: ['Player']
+
+roboflow:
+  workspace: leontest
+  project: rustplayer-58cr3
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/leontest/rustplayer-58cr3/dataset/1

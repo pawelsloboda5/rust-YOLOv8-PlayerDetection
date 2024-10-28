@@ -1,0 +1,68 @@
+# Rust specific
+target/
+Cargo.lock
+
+# If you have generated documentation
+/target/doc
+
+# If you have a custom toolchain file
+rust-toolchain
+
+# If you use the IntelliJ IDE
+.idea/
+
+# If you use Visual Studio Code
+.vscode/
+
+# If you use Emacs
+*~
+
+# If you use Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# If you use Eclipse
+.project
+.cproject
+.settings/
+
+# If you use JetBrains IDEs
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# If you use Windows
+*.exe
+*.dll
+*.cmd
+*.com
+*.bat
+*.log
+
+# If you use macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# If you use Python virtual environments
+.venv/
