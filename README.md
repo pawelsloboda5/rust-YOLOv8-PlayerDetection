@@ -20,14 +20,12 @@
    cd rustHax
 Set Up Virtual Environment:
 
-bash
-Copy code
+   ```bash
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 Install Dependencies:
 
-bash
-Copy code
+   ```bash
 pip install -r requirements.txt
 Download Pre-trained Models:
 
@@ -37,8 +35,7 @@ Place the downloaded models in the models/ directory.
 Usage
 Run the Detection Script:
 
-bash
-Copy code
+   ```bash
 python script.py --source path_to_video.mp4 --model models/yolov8s.pt
 Replace path_to_video.mp4 with your video file or use 0 for webcam input.
 
@@ -54,13 +51,11 @@ Organize images and annotations in YOLO format.
 Update data.yaml with dataset paths and class names.
 Train Model:
 
-bash
-Copy code
+   ```bash
 python train.py --data data.yaml --cfg models/yolov8s.yaml --weights '' --epochs 100
 Export Trained Model:
 
-bash
-Copy code
+   ```bash
 python export.py --weights runs/train/exp/weights/best.pt --include onnx
 Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your enhancements.
