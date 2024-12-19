@@ -51,7 +51,7 @@ Update data.yaml with dataset paths and class names.
 5. **Train Model**:
    ```bash
    python train.py --data data.yaml --cfg models/yolov8s.yaml --weights '' --epochs 100
-**Export Trained Model**:
+6. **Export Trained Model**:
    ```bash
    python export.py --weights runs/train/exp/weights/best.pt --include onnx
 
