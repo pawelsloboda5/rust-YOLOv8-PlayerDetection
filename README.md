@@ -20,9 +20,9 @@
    cd rustHax
 Set Up Virtual Environment:
 
-   ```bash
-   python -m venv venv
-   source venv/bin/activate   # On Windows: venv\Scripts\activate
+python -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
+
 Install Dependencies:
 
    ```bash
