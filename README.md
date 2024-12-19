@@ -32,6 +32,7 @@ YOLOv8s.pt
 Custom Model – RustHax.onnx
 Place the downloaded models in the models/ directory.
 Usage
+
 4. **Run the Detection Script**:
    ```bash
    python script.py --source path_to_video.mp4 --model models/yolov8s.pt
@@ -46,7 +47,8 @@ Prepare Dataset:
 
 Organize images and annotations in YOLO format.
 Update data.yaml with dataset paths and class names.
-**Train Model**:
+
+5. **Train Model**:
    ```bash
    python train.py --data data.yaml --cfg models/yolov8s.yaml --weights '' --epochs 100
 **Export Trained Model**:
