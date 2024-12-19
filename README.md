@@ -22,18 +22,17 @@
    ```bash
    python -m venv venv
    source venv/bin/activate   # On Windows: venv\Scripts\activate
-
-Install Dependencies:
+3. **Install Dependencies**:
    ```bash
    pip install -r requirements.txt
+
 Download Pre-trained Models:
 
 YOLOv8s.pt
 Custom Model – RustHax.onnx
 Place the downloaded models in the models/ directory.
 Usage
-Run the Detection Script:
-
+4. **Run the Detection Script**:
    ```bash
    python script.py --source path_to_video.mp4 --model models/yolov8s.pt
 
@@ -47,12 +46,10 @@ Prepare Dataset:
 
 Organize images and annotations in YOLO format.
 Update data.yaml with dataset paths and class names.
-Train Model:
-
+**Train Model**:
    ```bash
    python train.py --data data.yaml --cfg models/yolov8s.yaml --weights '' --epochs 100
-Export Trained Model:
-
+**Export Trained Model**:
    ```bash
    python export.py --weights runs/train/exp/weights/best.pt --include onnx
 Contributing
