@@ -18,7 +18,7 @@
    ```bash
    git clone https://github.com/pawelsloboda5/rustHax.git
    cd rustHax
-Set Up Virtual Environment:
+2. **Set Up Virtual Environment**:
    ```bash
    python -m venv venv
    source venv/bin/activate   # On Windows: venv\Scripts\activate
